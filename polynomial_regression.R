@@ -2,11 +2,11 @@
 
 #Jones and colleagues.
 #British Medical Journal.
-#21 muestras de niños con caries y perdidas dentales en cientos.
-#Concentracion de fluoruro por partes en millon en el agua que beben los niños. 
+#21 muestras de niÃ±os con caries y perdidas dentales en cientos.
+#Concentracion de fluoruro por partes en millon en el agua que beben los niÃ±os. 
 
 rm(list = ls())
-setwd("C:/Users/lr_29/Desktop/Big Data Goal/R/Proyectos R Studio")
+setwd("...")
 PerdDent<-read.csv(file="FlourideDMF.csv",header=TRUE)
 View(PerdDent)
 attach(PerdDent)
